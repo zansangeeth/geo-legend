@@ -2,6 +2,11 @@
 
 **Geo-Legend** is a professional-grade interactive map application built with Streamlit and GeoPandas. It visualizes Florida's median age demographics with a premium, custom-engineered user interface that pushes the boundaries of standard Streamlit capabilities.
 
+## 📈 Application Walkthrough
+
+![ezgif-204a840de51008d5](https://github.com/user-attachments/assets/da91af0d-9781-426a-b185-87b3cca41cdf)
+
+
 ## 🌟 Key Functionalities
 
 ### 1. 🖥️ Edge-to-Edge Full Screen Map
