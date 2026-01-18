@@ -24,20 +24,22 @@ st.markdown("""
         top: 30px;
         right: 30px;
         width: 300px !important;
-        background: #fdfdfd;
-        border: 1px solid #757575;
+        background: rgba(255, 255, 255, 0.1); /* Glass: More transparent */
+        backdrop-filter: blur(20px);           /* Glass: Stronger blur */
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.5); /* Crisper edge */
         border-radius: 12px;
         padding: 16px;
         z-index: 999999;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
         opacity: 0.98;
     }
 
     .legend-handle {
         margin: -16px -16px 15px -16px;
         padding: 12px 16px;
-        background: #fdfdfd;
-        border-bottom: 1px solid #eee;
+        background: transparent; /* Transparent to show blur */
+        border-bottom: 1px solid rgba(0,0,0,0.1);
         border-radius: 12px 12px 0 0;
         font-size: 13px;
         color: #1a1a1a;
